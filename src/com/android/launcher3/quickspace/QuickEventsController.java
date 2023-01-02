@@ -132,7 +132,7 @@ public class QuickEventsController {
         mEventTitleSub = mContext.getResources().getStringArray(R.array.welcome_message_variants)[getLuckyNumber(0,6)];
         mGreetings = mContext.getResources().getString(R.string.quickspace_grt_general);
         mClockExt = mContext.getResources().getString(R.string.quickspace_ext_three);
-        mEventSubIcon = R.drawable.ic_quickspace_crdroid;
+        mEventSubIcon = R.drawable.ic_quickspace_pacman;
 
         mEventTitleSubAction = new OnClickListener() {
             @Override
@@ -173,7 +173,6 @@ public class QuickEventsController {
         if (!mPlayingActive) return;
 
         if (mNowPlayingTitle == null) return;
-        
         mEventTitle = mNowPlayingTitle;
         mGreetings = mContext.getResources().getString(R.string.qe_now_playing_ext_one);
         mClockExt = mContext.getResources().getString(R.string.qe_now_playing_ext_two);
@@ -243,7 +242,7 @@ public class QuickEventsController {
 
     public void psonalityEvent() {
         if (!mIsFirstTimeDone || mEventNowPlaying) return;
-	
+
 	mEventTitle = Utilities.formatDateTime(mContext);
         mPSAMorningStr = mContext.getResources().getStringArray(R.array.quickspace_psa_morning);
         mPSAEvenStr = mContext.getResources().getStringArray(R.array.quickspace_psa_evening);
@@ -338,6 +337,7 @@ public class QuickEventsController {
                 if (getLuckyNumber(13) == 7) {
                     psaLength = mPSARandomStr.length - 1;
                     mEventTitleSub = mPSARandomStr[getLuckyNumber(0, psaLength)];
+                    mEventSubIcon = R.drawable.ic_quickspace_pacman;
                     mIsQuickEvent = true;
                 } else {
                     mIsQuickEvent = false;

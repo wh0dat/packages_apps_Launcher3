@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application name -->
-    <string name="crdroid_app_name" translatable="false">crDroid Home</string>
+    <string name="crdroid_app_name" translatable="false">Alpha Launcher</string>
 
     <!-- Folder titles -->
     <string name="google_folder_title" translatable="false">Google</string>
@@ -137,7 +137,7 @@
 
     <!-- Row Height -->
     <string name="row_height_title">Row height</string>
-    
+
     <!-- Background blur -->
     <string name="background_blur_title">Background blur depth</string>
     <string name="background_blur_summary">Set blur depth level for recents and app drawer</string>
@@ -149,13 +149,11 @@
     <string name="quickspace_date_format_minimalistic" translatable="false">EEEE, MMMM d</string>
 
     <!-- QuickSpace: QuickEvent: Device Intro Event -->
-    <string name="quick_event_rom_intro_welcome" translatable="false">Welcome to riceDroid!</string>
-    <string-array name="welcome_message_variants" translatable="false">
-        <item>Have a great day!</item>
-        <item>Thank you for flashing riceDroid!</item>
-        <item>Loving us? Send us a soju!</item>
-        <item>We\'re not the best, but at least we try!</item>
-        <item>Share us on twitter! #gtrcd</item>
+    <string name="quick_event_rom_intro_welcome">Welcome to AlphaDroid!</string>
+    <string-array name="welcome_message_variants">
+        <item>Have a great day</item>
+        <item>Thank you for choosing us</item>
+        <item>Best Rom Ever.</item>
         <item>Tap here to begin</item>
         <item>We love it when you enjoy riceDroid!</item>
     </string-array>
@@ -172,6 +170,8 @@
     <string name="quickspace_ext_three">It\'s</string>
 
     <!-- QuickSpace: QuickEvent: Ambient Play -->
+    <string name="quick_event_ambient_now_playing">Now Playing</string>
+    <string name="quick_event_ambient_song_artist">%1$s by %2$s</string>
     <string name="qe_now_playing_unknown_artist">Unknown Artist</string>
     <string name="qe_now_playing_ext_one">Now playing</string>
     <string name="qe_now_playing_ext_two"></string>
@@ -259,6 +259,11 @@
         <item>Enjoy the midnight.</item>
         <item>Sleep deficiency affects your body clock.</item>
         <item>Please take care of yourself.</item>
+        <item>Um... good night?</item>
+        <item>It\'s a bit late now</item>
+        <item>You should fix your sleep schedule</item>
+        <item>Are you more productive at this time?</item>
+        <item>Change the channel, Marge.</item>
     </string-array>
     <string-array name="quickspace_psa_random">
         <item>There are easter eggs hidden on this ROM.</item>
@@ -284,8 +289,42 @@
         <item>Always bring water to stay hydrated.</item>
         <item>Space smells like seared steak..</item>
         <item>Enjoy your day!</item>
+        <item>Ignorance is Bliss</item>
+        <item>Is it time to flash another update already?</item>
+        <item>Make peace, not war</item>
+        <item>Oh hey, what\'s up?</item>
+        <item>Focus on your tasks</item>
+        <item>How many screenshots do you take?</item>
+        <item>Spread love, not havoc</item>
+        <item>We didn\'t start the fire!</item>
+        <item>Time for some good music</item>
+        <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
+        <item>You need AlphaDroid Premium to see this</item>
+        <item>Remember the Lineage of the Unicorn</item>
+        <item>Enjoy Xtended battery life</item>
+        <item>Starting from the ground zero</item>
+        <item>We love you 3000</item>
+        <item>Delicious even without Sushi</item>
+        <item>Do something nice today</item>
+        <item>This is best Pixel Experience, isn\'t it?</item>
+        <item>How is everything going?</item>
+        <item>No illusions, welcome to reality!</item>
+        <item>Thank you for your support</item>
+        <item>No festival for Derps - only perfection!</item>
+        <item>One of the buildbot\'s best picks</item>
+        <item>Sanity for your Paranoia</item>
+        <item>Try Ice Cold desserts</item>
+        <item>What a lovely experience, isn\'t it?</item>
+        <item>Evolution is a myth, right?</item>
+        <item>You are what you flash, don\'t be Potato</item>
+        <item>What\'s on your mind?</item>
+        <item>Expecto Patronum</item>
+        <item>Wubba Lubba Dub Dub</item>
+        <item>Winner Winner ....?</item>
+        <item>rm -rf \/</item>
+        <item>Me fail English? That\'s unpossible.</item>
     </string-array>
-    
+
     <!-- Suggestions -->
     <string name="suggestion_pref_screen_title">Suggestions</string>
     <string name="suggestion_pref_screen_desc">For All Apps &amp; Home screen suggestions</string>
